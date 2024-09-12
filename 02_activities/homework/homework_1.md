@@ -66,6 +66,13 @@ A logical data model must contain:
 - table name
 - column names
 - relationship type
+  
+[LucidChart](https://www.lucidchart.com/pages/).  
+https://lucid.app/lucidchart/79200dd8-846b-4a13-b854-b2e0613507da/edit?viewport_loc=-2698%2C-304%2C1645%2C734%2C0_0&invitationId=inv_120eab53-e635-4fc8-b380-d71e2ef2885d
+or
+![image](https://github.com/user-attachments/assets/e7e040e7-3ff4-4bc2-9125-4630f418de78)
+
+
 
 Please do not pick the exact same tables that I have already diagramed. For example, you shouldn't diagram the relationship between `product` and `product_category`, but you could diagram `product` and `customer_purchases`.
 
