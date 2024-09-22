@@ -81,6 +81,10 @@ FROM
 	,transaction_time
 	,row_number() OVER (PARTITION BY customer_id ORDER BY market_date DESC) AS visit_number
 
+FROM customer_purchases
+)
+WHERE visit_number = 1;
+
 /* 3. Using a COUNT() window function, include a value along with each row of the 
 customer_purchases table that indicates how many different times that customer has purchased that product_id. */
 
